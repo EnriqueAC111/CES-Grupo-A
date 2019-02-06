@@ -31,16 +31,16 @@ public class Puntos : MonoBehaviour
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		if(other.gameObject.CompareTag("Tuerca")||other.gameObject.CompareTag("CES") && rayo1cont.enabled==true)
+		if((other.gameObject.CompareTag("Tuerca")||other.gameObject.CompareTag("CES")) && rayo1cont.enabled==true)
 		{
 			rayo1cont.enabled = false;
 			rayo1rell.enabled = true;
-		}else if(other.gameObject.CompareTag("Tuerca")||other.gameObject.CompareTag("CES") && rayo1rell.enabled==true && 
+		}else if((other.gameObject.CompareTag("Tuerca")||other.gameObject.CompareTag("CES")) && rayo1rell.enabled==true && 
 			rayo2cont.enabled==true)
 		{
 			rayo2cont.enabled = false;
 			rayo2rell.enabled = true;
-		}else if(other.gameObject.CompareTag("Tuerca")||other.gameObject.CompareTag("CES") && rayo1rell.enabled==true && 
+		}else if((other.gameObject.CompareTag("Tuerca")||other.gameObject.CompareTag("CES")) && rayo1rell.enabled==true && 
 			rayo2rell.enabled==true && rayo3cont.enabled==true)
 		{
 			rayo3cont.enabled = false;
@@ -49,4 +49,5 @@ public class Puntos : MonoBehaviour
 
 		Destroy(gameObject);
 	}
+
 }
