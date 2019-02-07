@@ -25,13 +25,16 @@ public class CortaCuerda : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             col.enabled = true;
-            gameObject.SetActive(true);
+
+            //Para saber donde está la posición del ratón:
+            mousePosition = Input.mousePosition;
+            //Donde clickas tienes la posicion de la camara:
+            mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
         }
 
         if (Input.GetMouseButtonUp(0))
         {
             col.enabled = false;
-            gameObject.SetActive(false);
         }
         if (Input.GetMouseButton(0)) {
 			//Consola:
