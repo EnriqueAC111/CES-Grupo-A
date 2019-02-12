@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PantallaInfo.unity
     guid: 093916295318c4c49b30b41ad84859ce
+  - enabled: 1
+    path: Assets/Scenes/PantallaAjustes.unity
+    guid: db9cf3a401059b749ab85d14dcfac6a8
   m_configObjects: {}

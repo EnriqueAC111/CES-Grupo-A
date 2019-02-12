@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameController : MonoBehaviour
+public class GameControllerPABLO : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -32,6 +32,11 @@ public class GameController : MonoBehaviour
     public void CargaInfo()
     {
         SceneManager.LoadScene("PantallaInfo");
+    }
+
+    public void CargaMenuInicial()
+    {
+        SceneManager.LoadScene("MenuInicio");
     }
 
 
