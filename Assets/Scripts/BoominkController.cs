@@ -25,8 +25,10 @@ public class BoominkController : MonoBehaviour
         if ((Input.GetMouseButtonDown(0)) && (tuerca.transform.IsChildOf(gameObject.transform)))
         {
             transform.DetachChildren();
+            rbTuerca.isKinematic = false;
             rbTuerca.AddForce(transform.up * velocidad);
             Debug.Log("RATONAZO");
+            
         }
     }
 
@@ -36,6 +38,7 @@ public class BoominkController : MonoBehaviour
         if (collision.gameObject.CompareTag("Tuerca"))
         {
             collision.transform.SetParent(gameObject.transform);
+            rbTuerca.isKinematic = true;
             
         }
 
