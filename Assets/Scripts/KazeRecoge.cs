@@ -5,11 +5,13 @@ using UnityEngine;
 public class KazeRecoge : MonoBehaviour
 {
 
-
+    Rigidbody2D rb;
+    HingeJoint2D hj;
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = gameObject.GetComponent<Rigidbody2D>();
+        hj = gameObject.GetComponent<HingeJoint2D>();
     }
 
     // Update is called once per frame
@@ -18,9 +20,9 @@ public class KazeRecoge : MonoBehaviour
         
     }
 
-    void OnCollisionEnter2D(Collision2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        other.transform.SetParent(gameObject.transform);
+        hj.connectedBody = other.GetComponent<Rigidbody2D>();
     }
 
     private void OnMouseDown()

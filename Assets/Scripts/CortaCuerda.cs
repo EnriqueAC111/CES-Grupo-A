@@ -44,7 +44,7 @@ public class CortaCuerda : MonoBehaviour
 			//Donde clickas tienes la posicion de la camara:
 			mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
 			//Para que se mueva:
-			transform.position = Vector2.Lerp(transform.position, mousePosition, moveSpeed);
+			transform.position = mousePosition;
 		}
 
 	}
