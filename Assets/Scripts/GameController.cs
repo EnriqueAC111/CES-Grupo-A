@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
 
-
+    public Canvas menuPausa;
+    public Canvas hud;
 
 
 
@@ -19,6 +21,26 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+    }
+
+    public void ReiniciarLvl()
+    {
+       
+    }
+
+    public void PantallaPausa()
+    {
+        menuPausa.enabled = true;
+        hud.enabled = false;
+        Time.timeScale = 0f;
+    }
+
+    public void ReanudarLvl()
+    {
+        hud.enabled = true;
+        menuPausa.enabled = true;
+        Time.timeScale = 1f;
 
     }
     

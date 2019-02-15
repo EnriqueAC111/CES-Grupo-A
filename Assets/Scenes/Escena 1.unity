@@ -437,50 +437,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1435297870}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &324611507
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 324611509}
-  - component: {fileID: 324611508}
-  m_Layer: 0
-  m_Name: GameController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &324611508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 324611507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66258c770e33eee479866b9d2dcd8b7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hud: {fileID: 1857526010}
---- !u!4 &324611509
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 324611507}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 84.677025, y: 148.59377, z: 3.8754663}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &409162643
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,6 +684,85 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &536834444
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6970771533175005647, guid: b93f0376ab086514992aa3e76229e936,
+        type: 3}
+      propertyPath: m_Name
+      value: CameControllerUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207821276722220202, guid: b93f0376ab086514992aa3e76229e936,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 65.1485
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207821276722220202, guid: b93f0376ab086514992aa3e76229e936,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 169.82063
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207821276722220202, guid: b93f0376ab086514992aa3e76229e936,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.4546585
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207821276722220202, guid: b93f0376ab086514992aa3e76229e936,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207821276722220202, guid: b93f0376ab086514992aa3e76229e936,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207821276722220202, guid: b93f0376ab086514992aa3e76229e936,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207821276722220202, guid: b93f0376ab086514992aa3e76229e936,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207821276722220202, guid: b93f0376ab086514992aa3e76229e936,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207821276722220202, guid: b93f0376ab086514992aa3e76229e936,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207821276722220202, guid: b93f0376ab086514992aa3e76229e936,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207821276722220202, guid: b93f0376ab086514992aa3e76229e936,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7905300504833053644, guid: b93f0376ab086514992aa3e76229e936,
+        type: 3}
+      propertyPath: hud
+      value: 
+      objectReference: {fileID: 1857526010}
+    - target: {fileID: 7905300504833053644, guid: b93f0376ab086514992aa3e76229e936,
+        type: 3}
+      propertyPath: menuPausa
+      value: 
+      objectReference: {fileID: 1057255092}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b93f0376ab086514992aa3e76229e936, type: 3}
 --- !u!1 &538830245
 GameObject:
   m_ObjectHideFlags: 0
@@ -1673,7 +1708,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 971873327}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7905300504833053644, guid: b93f0376ab086514992aa3e76229e936,
+          type: 3}
+        m_MethodName: SeleccionNivel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &971873327
@@ -2073,7 +2120,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1091164828}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7905300504833053644, guid: b93f0376ab086514992aa3e76229e936,
+          type: 3}
+        m_MethodName: ReiniciarLvl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1091164828
@@ -2509,7 +2568,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1213548000}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7905300504833053644, guid: b93f0376ab086514992aa3e76229e936,
+          type: 3}
+        m_MethodName: ReanudarLvl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1213548000
@@ -2639,7 +2710,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1289149792}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7905300504833053644, guid: b93f0376ab086514992aa3e76229e936,
+          type: 3}
+        m_MethodName: ReiniciarLvl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1289149792
@@ -3367,12 +3450,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 66258c770e33eee479866b9d2dcd8b7f, type: 3}
-        m_MethodName: 
+      - m_Target: {fileID: 7905300504833053644, guid: b93f0376ab086514992aa3e76229e936,
+          type: 3}
+        m_MethodName: PantallaPausa
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
