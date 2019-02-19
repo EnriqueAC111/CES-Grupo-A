@@ -20,9 +20,11 @@
 #### Problemas que han surgido
 Varias enfermedades
 Sara y Angela han discutido
+Plantear con más antelación todo lo que va a ser necesario.
 
 #### Posibles soluciones
 Sara y Angela se han reconciliado
+Plantear con más antelación todo lo que va a ser necesario.
 
 #### ¿Se han compeltado todas las tareas? Si o no, ¿por qué?
 No, hemos tenido problemas por culpa de estar malos, por lo que varios días no han sido dias habiles.
