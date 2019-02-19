@@ -7,39 +7,56 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
 
-    public Canvas menuPausa;
-    public Canvas hud;
+    public GameObject menuPausa;
+    public GameObject hud;
 
+    Scene nivelActual;
+
+   // string nivelCargado;
 
 
     // Start is called before the first frame update
+
     void Start()
     {
         
     }
 
+
+    private void Awake()
+    {
+        nivelActual = SceneManager.GetActiveScene();
+        menuPausa.SetActive(false);
+    }
+
+
     // Update is called once per frame
     void Update()
     {
+        //nivelActual = SceneManager.GetActiveScene();
 
+        //if(nivelActual.name == nivelCargado)
     }
 
     public void ReiniciarLvl()
     {
-       
+        SceneManager.LoadScene(nivelActual.name);
+        Time.timeScale = 1f;
+
+        hud.SetActive(true);
     }
 
     public void PantallaPausa()
     {
-        menuPausa.enabled = true;
-        hud.enabled = false;
+        menuPausa.SetActive(true);
+        hud.SetActive(false);
         Time.timeScale = 0f;
     }
 
     public void ReanudarLvl()
     {
-        hud.enabled = true;
-        menuPausa.enabled = true;
+        menuPausa.SetActive(false);
+        hud.SetActive(true);
         Time.timeScale = 1f;
 
     }
