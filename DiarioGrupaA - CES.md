@@ -68,7 +68,7 @@ Algunas tareas que tendrían que haber sido consideradas y añadidas antes en Ha
 Enrique ha tenido un problema con la tarea #6 y ha quedado en fase de testing para arreglar más tarde.
 
 #### Posibles soluciones
-Sara y Angela se han reconciliado
+Sara y Angela se han reconciliado.
 Plantear con más antelación todo lo que va a ser necesario.
 
 #### ¿Se han compeltado todas las tareas? Si o no, ¿por qué?
