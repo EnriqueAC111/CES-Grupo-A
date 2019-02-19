@@ -2,7 +2,7 @@
 ## Sprint 1 (4/02/19 - 15/02/19)
 ### Resumen
 
-####Eufrasio
+#### Eufrasio
 * #X
 
 #### Mario
@@ -36,7 +36,7 @@
 * #67 IU(Falta terminar unas cosas)
 
 
-###Retrospectiva del sprint
+### Retrospectiva del sprint
 
 
 #### Problemas que han surgido
