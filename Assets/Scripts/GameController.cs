@@ -80,11 +80,13 @@ public class GameController : MonoBehaviour
         SceneManager.LoadScene("MenuInicio");
     }
 
-    public void SeleccionNivel()
+    public void SeleccionMundo()
     {
 
-        SceneManager.LoadScene("SeleccionNivel");
+        SceneManager.LoadScene("SeleccionMundo");
     }
+
+    
 
     public void Nivel1()
     {
