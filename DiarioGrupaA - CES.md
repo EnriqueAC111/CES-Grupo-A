@@ -44,6 +44,19 @@
 * #16 Mecánica Repeler
 * #67 IU(Falta terminar unas cosas)
 
+####Simón García Malheiro
+* #53 Vectorizar Ir a Selección de Niveles
+* #58 Vectorizar Botones de Selección de Niveles
+* #60 Vectorizar Efecto de Sonido
+* #27 Vectorizar Perita
+* #31 Vectorizar Casperger
+* #56 Vectorizar Botón Avanzar
+* #28 Vectorizar Pepe "The Toaster" VII
+* #41 Vectorizar Barril
+* #51 Vectorizar Play
+
+* Vectorizar Pantalla de Selección de Mundos
+* Retocar Todos los Botones
 
 ### Retrospectiva del sprint
 
