@@ -52,7 +52,6 @@
 * #28 Vectorizar Pepe "The Toaster" VII
 * #41 Vectorizar Barril
 * #51 Vectorizar Play
-
 * Vectorizar Pantalla de Selección de Mundos
 * Retocar Todos los Botones
 
