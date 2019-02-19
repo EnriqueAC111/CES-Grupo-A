@@ -4,6 +4,15 @@
 
 #### Eufrasio
 * #X
+#### Enrique
+* #37 Mecánica globo
+* #25 Mecánica duplicar
+* #105 Físicas tuerca
+* #2 Mecánica de aire
+* #49 Puntuación rayos
+* #47 Físicas cadena
+* #67 IU
+* #7 Soltar elemento de Kaze
 
 #### Mario
 * #29 Vectorizar Racingo
@@ -40,9 +49,10 @@
 
 
 #### Problemas que han surgido
-Varias enfermedades
-Sara y Angela han discutido
+Varias enfermedades.
+Sara y Angela han discutido.
 Algunas tareas que tendrían que haber sido consideradas y añadidas antes en Hack&Plan ya que luego no se pudo.
+Enrique ha tenido un problema con la tarea #6 y ha quedado en fase de testing para arreglar más tarde.
 
 #### Posibles soluciones
 Sara y Angela se han reconciliado
