@@ -44,7 +44,7 @@
 * #16 Mecánica Repeler
 * #67 IU(Falta terminar unas cosas)
 
-#### Simón García Malheiro
+#### Simón
 * #53 Vectorizar Ir a Selección de Niveles
 * #58 Vectorizar Botones de Selección de Niveles
 * #60 Vectorizar Efecto de Sonido
