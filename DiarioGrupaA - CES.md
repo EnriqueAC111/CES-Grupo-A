@@ -2,8 +2,6 @@
 ## Sprint 1 (4/02/19 - 15/02/19)
 ### Resumen
 
-#### Eufrasio
-* #X
 #### Enrique
 * #37 Mecánica globo
 * #25 Mecánica duplicar
@@ -63,14 +61,14 @@
 
 #### Problemas que han surgido
 Varias enfermedades.
-Sara y Angela han discutido.
-Algunas tareas que tendrían que haber sido consideradas y añadidas antes en Hack&Plan ya que luego no se pudo.
+Sara y Ángela han discutido.
+Algunas tareas tendrían que haber sido consideradas y añadidas antes en Hack&Plan ya que luego no se pudo.
 Enrique ha tenido un problema con la tarea #6 y ha quedado en fase de testing para arreglar más tarde.
 
 #### Posibles soluciones
-Sara y Angela se han reconciliado.
+Sara y Ángela se han reconciliado.
 Plantear con más antelación todo lo que va a ser necesario.
 
 #### ¿Se han compeltado todas las tareas? Si o no, ¿por qué?
-No, hemos tenido problemas por culpa de estar malos, por lo que varios días no han sido dias habiles.
-Además, no hemos hecho las animaciones porque no estaban los sprites aunque Angela decía que se puede animar y luego se le añade el sprite. Por la parte de arte que se tenía planteado en el sprint, sí. 
+No, hemos tenido problemas por culpa de estar malos, por lo que varios días no han sido días habiles.
+Además, no hemos hecho las animaciones porque no estaban los sprites aunque Ángela decía que se puede animar y luego se le añade el sprite. Por la parte de arte que se tenía planteado en el sprint, sí. 
