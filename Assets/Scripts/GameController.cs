@@ -10,6 +10,7 @@ public class GameController : MonoBehaviour
     public GameObject menuPausa;
     public GameObject hud;
 
+
     Scene nivelActual;
 
    // string nivelCargado;
@@ -80,18 +81,15 @@ public class GameController : MonoBehaviour
         SceneManager.LoadScene("MenuInicio");
     }
 
-    public void SeleccionMundo()
+    public void SeleccionNivel()
     {
 
-        SceneManager.LoadScene("SeleccionMundo");
+        SceneManager.LoadScene("SeleccionNivel");
     }
-
-    
 
     public void Nivel1()
     {
-
-        SceneManager.LoadScene("Nivel 1");
+         SceneManager.LoadScene("Nivel 1");
     }
 
     public void Nivel2()
