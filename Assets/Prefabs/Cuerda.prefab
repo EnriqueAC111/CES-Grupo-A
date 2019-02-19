@@ -272,7 +272,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.05864572, y: 0.039000094}
+  m_ConnectedAnchor: {x: -0.61800003, y: 0.913}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -307,7 +307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5703104546257103074}
   m_Layer: 0
-  m_Name: Cuerda 1
+  m_Name: Cuerda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -324,7 +324,7 @@ Transform:
   m_LocalPosition: {x: -0.633, y: 0.671, z: 0.07910156}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 5703104546479169009}
+  - {fileID: 6899279534677155959}
   - {fileID: 5703104545487783297}
   - {fileID: 5703104546442291273}
   - {fileID: 5703104545814298786}
@@ -542,12 +542,13 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5703104546479169009}
+  - component: {fileID: 6899279534677155959}
   - component: {fileID: 5703104546479169012}
   - component: {fileID: 5703104546479169015}
   - component: {fileID: 5703104546479169014}
   - component: {fileID: 5703104546479168970}
   - component: {fileID: 5703104546479169013}
+  - component: {fileID: 7152009749056062870}
   m_Layer: 0
   m_Name: Nodo1
   m_TagString: Untagged
@@ -555,20 +556,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5703104546479169009
-Transform:
+--- !u!224 &6899279534677155959
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5703104546479169008}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.015000001, y: 1.092, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5703104546257103074}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.015000001, y: 1.092}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!50 &5703104546479169012
 Rigidbody2D:
   serializedVersion: 4
@@ -737,3 +743,11 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!222 &7152009749056062870
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5703104546479169008}
+  m_CullTransparentMesh: 0
