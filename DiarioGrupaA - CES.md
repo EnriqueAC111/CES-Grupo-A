@@ -55,6 +55,13 @@
 * Vectorizar Pantalla de Selección de Mundos
 * Retocar Todos los Botones
 
+#### Sara V. Martín García
+* #94 Estilo de fondos
+* #17 Vectorizar fondo 1
+* #95 Aplicar estilos a los personajes
+
+* He retocado algunas vectorizaciones de fondos (in progress)
+
 ### Retrospectiva del sprint
 
 
