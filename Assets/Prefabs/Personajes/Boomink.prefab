@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 2843341384493151891}
   - component: {fileID: 2843341384493151916}
   - component: {fileID: 2843341384493151917}
-  - component: {fileID: 2843341384493151918}
   - component: {fileID: 2843341384493151890}
+  - component: {fileID: 5282100672666625022}
   m_Layer: 0
   m_Name: Boomink
   m_TagString: Untagged
@@ -96,32 +96,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tuerca: {fileID: 0}
   velocidad: 500
---- !u!61 &2843341384493151918
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2843341384493151919}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.0025117658, y: -0.006156355}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.14470588, y: 0.19294117}
-    newSize: {x: 0.16, y: 0.16}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.108330406, y: 0.14538991}
-  m_EdgeRadius: 0
 --- !u!50 &2843341384493151890
 Rigidbody2D:
   serializedVersion: 4
@@ -143,3 +117,84 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!60 &5282100672666625022
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2843341384493151919}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.14470588, y: 0.19294117}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.051764704, y: -0.0717647}
+      - {x: 0.055294115, y: -0.067647055}
+      - {x: 0.057058822, y: -0.06529412}
+      - {x: 0.057058822, y: -0.05823529}
+      - {x: 0.053529408, y: -0.04470588}
+      - {x: 0.056470588, y: -0.038823526}
+      - {x: 0.057058822, y: -0.034117647}
+      - {x: 0.057058822, y: -0.033529412}
+      - {x: 0.05235294, y: -0.028235294}
+      - {x: 0.054117646, y: -0.018235294}
+      - {x: 0.054117646, y: -0.0017647059}
+      - {x: 0.052941173, y: 0.0041176467}
+      - {x: 0.051764704, y: 0.008823529}
+      - {x: 0.04235294, y: 0.03647059}
+      - {x: 0.04, y: 0.039411765}
+      - {x: 0.03470588, y: 0.04352941}
+      - {x: 0.037058823, y: 0.052941173}
+      - {x: 0.04470588, y: 0.056470588}
+      - {x: 0.048823528, y: 0.061176468}
+      - {x: 0.049999997, y: 0.06588235}
+      - {x: 0.048823528, y: 0.068823524}
+      - {x: 0.046470586, y: 0.07235294}
+      - {x: 0.038823526, y: 0.07705882}
+      - {x: 0.030588234, y: 0.07941176}
+      - {x: 0.02, y: 0.08117647}
+      - {x: 0.010588235, y: 0.081764705}
+      - {x: -0.011764705, y: 0.081764705}
+      - {x: -0.02352941, y: 0.08058823}
+      - {x: -0.044117644, y: 0.07705882}
+      - {x: -0.052941173, y: 0.07}
+      - {x: -0.054117646, y: 0.067058824}
+      - {x: -0.053529408, y: 0.061176468}
+      - {x: -0.048235293, y: 0.056470588}
+      - {x: -0.040588234, y: 0.05235294}
+      - {x: -0.037647057, y: 0.04352941}
+      - {x: -0.041176468, y: 0.04235294}
+      - {x: -0.04705882, y: 0.035294116}
+      - {x: -0.046470586, y: 0.03}
+      - {x: -0.05058823, y: 0.02117647}
+      - {x: -0.054117646, y: 0.0076470585}
+      - {x: -0.05588235, y: -0.002352941}
+      - {x: -0.05588235, y: -0.02}
+      - {x: -0.053529408, y: -0.030588234}
+      - {x: -0.056470588, y: -0.03470588}
+      - {x: -0.057058822, y: -0.047647055}
+      - {x: -0.059411764, y: -0.057647057}
+      - {x: -0.059411764, y: -0.06529412}
+      - {x: -0.057058822, y: -0.06823529}
+      - {x: -0.05235294, y: -0.07235294}
+      - {x: -0.044117644, y: -0.07588235}
+      - {x: -0.034117647, y: -0.07941176}
+      - {x: -0.018235294, y: -0.081764705}
+      - {x: 0.01, y: -0.081764705}
+      - {x: 0.015882352, y: -0.08117647}
+      - {x: 0.031764705, y: -0.07941176}
+      - {x: 0.044117644, y: -0.07588235}
