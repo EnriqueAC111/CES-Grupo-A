@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Mundo1Accionado : MonoBehaviour
+public class Mundo1Accion : MonoBehaviour
 {
 
     Animator anim;
