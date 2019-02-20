@@ -9,6 +9,10 @@ public class GameController : MonoBehaviour
 
     public GameObject menuPausa;
     public GameObject hud;
+    public GameObject pantallaFinalNivel;
+    public GameObject tuerca;
+
+
 
 
     Scene nivelActual;
@@ -34,9 +38,12 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //nivelActual = SceneManager.GetActiveScene();
-
-        //if(nivelActual.name == nivelCargado)
+        if (tuerca == null)
+        {
+            pantallaFinalNivel.SetActive(true);
+            hud.SetActive(false);
+            Time.timeScale = 0f;
+        }
     }
 
     public void ReiniciarLvl()
@@ -45,6 +52,12 @@ public class GameController : MonoBehaviour
         Time.timeScale = 1f;
 
         hud.SetActive(true);
+    }
+
+    public void SiguienteLvl()
+    {
+        SceneManager.LoadScene(nivelActual.buildIndex + 1);
+        Debug.Log(nivelActual.buildIndex);
     }
 
     public void PantallaPausa()

@@ -2,12 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Mundo1Accionado : MonoBehaviour
+public class Mundo2Accion : MonoBehaviour
 {
-
     Animator anim;
     public Animator animacionFondo;
     public GameObject fondo;
+    public GameObject botonLvl1;
+    public GameObject botonLvl2;
+    public GameObject botonLvl3;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,14 +22,16 @@ public class Mundo1Accionado : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void Mundo1Pulsado()
+    public void Mundo2Pulsado()
     {
         anim.SetBool("Pulsado", true);
         animacionFondo.SetBool("Pulsado", true);
+        botonLvl1.SetActive(true);
+        botonLvl2.SetActive(true);
+        botonLvl3.SetActive(true);
+
     }
-
-
 }
