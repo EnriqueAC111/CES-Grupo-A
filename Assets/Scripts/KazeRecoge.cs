@@ -7,6 +7,10 @@ public class KazeRecoge : MonoBehaviour
 
     Rigidbody2D rb;
     HingeJoint2D hj;
+
+    public GameObject Anclaje;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,13 +24,32 @@ public class KazeRecoge : MonoBehaviour
         
     }
 
+    
     void OnTriggerEnter2D(Collider2D other)
     {
-        hj.connectedBody = other.GetComponent<Rigidbody2D>();
+        if (other.gameObject.CompareTag("Tuerca"))
+        {
+            other.transform.position = Anclaje.transform.position;
+            hj.connectedBody = other.GetComponent<Rigidbody2D>();
+            
+        }
+        
     }
+    
+    /*
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Tuerca"))
+        {
+            gameObject.transform.position = hj.transform.position;
+            hj.connectedBody = collision.gameObject.GetComponent<Rigidbody2D>();
+        }
+    }
+    */
+
 
     private void OnMouseDown()
     {
-        gameObject.transform.DetachChildren();
+        hj.connectedBody = null;
     }
 }
