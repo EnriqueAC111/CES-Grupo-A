@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6094397100628644921}
   - component: {fileID: 6094397100628644927}
   - component: {fileID: 3797293139864977021}
+  - component: {fileID: 4400331921862967877}
   m_Layer: 0
   m_Name: Pepe
   m_TagString: Untagged
@@ -186,6 +187,25 @@ PolygonCollider2D:
       - {x: -0.084375, y: -0.14999999}
       - {x: -0.028125, y: -0.14874999}
       - {x: 0.074374996, y: -0.15124999}
+--- !u!95 &4400331921862967877
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6094397100628644924}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 089b544a3d81b554698e66609436c0fa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6864527389639214519
 GameObject:
   m_ObjectHideFlags: 0

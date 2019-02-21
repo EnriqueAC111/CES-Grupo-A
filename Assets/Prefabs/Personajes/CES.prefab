@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1984123713576007117}
   - component: {fileID: 1984123713576007114}
+  - component: {fileID: 6823392149576847637}
   - component: {fileID: 1984123713576007115}
   - component: {fileID: 4801005352532752079}
   - component: {fileID: 1033989833238727776}
@@ -82,6 +83,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &6823392149576847637
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984123713576007113}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.17230769
 --- !u!50 &1984123713576007115
 Rigidbody2D:
   serializedVersion: 4
@@ -212,3 +229,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb4730c2eeaa2a44982d5a5c1bc9841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tuerca: {fileID: 4970270021410853805, guid: 6a309d3e72fdb4c4186a5d58c4be8fbd, type: 3}
