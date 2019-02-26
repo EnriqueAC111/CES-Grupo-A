@@ -15,7 +15,7 @@ public class Particulas : MonoBehaviour
 
     private void Awake()
     {
-        particules.Stop();
+		
     }
 
     // Update is called once per frame
@@ -23,7 +23,6 @@ public class Particulas : MonoBehaviour
     {
         if(gameObject == null)
         {
-            particulas.SetActive(true);
             particules.Play();
         }
     }
