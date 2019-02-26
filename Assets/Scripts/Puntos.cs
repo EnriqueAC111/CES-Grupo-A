@@ -35,19 +35,22 @@ public class Puntos : MonoBehaviour
 		{
 			rayo1cont.enabled = false;
 			rayo1rell.enabled = true;
+			Destroy(gameObject);
 		}else if((other.gameObject.CompareTag("Tuerca")||other.gameObject.CompareTag("CES")) && rayo1rell.enabled==true && 
 			rayo2cont.enabled==true)
 		{
 			rayo2cont.enabled = false;
 			rayo2rell.enabled = true;
+			Destroy(gameObject);
 		}else if((other.gameObject.CompareTag("Tuerca")||other.gameObject.CompareTag("CES")) && rayo1rell.enabled==true && 
 			rayo2rell.enabled==true && rayo3cont.enabled==true)
 		{
 			rayo3cont.enabled = false;
 			rayo3rell.enabled = true;
+			Destroy(gameObject);
 		}
 
-		Destroy(gameObject);
+
 	}
 
 }
