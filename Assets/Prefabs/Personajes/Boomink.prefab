@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 2843341384493151917}
   - component: {fileID: 2843341384493151890}
   - component: {fileID: 5282100672666625022}
-  - component: {fileID: 6537159466926527774}
   m_Layer: 0
   m_Name: Boomink
   m_TagString: Untagged
@@ -199,22 +198,3 @@ PolygonCollider2D:
       - {x: 0.015882352, y: -0.08117647}
       - {x: 0.031764705, y: -0.07941176}
       - {x: 0.044117644, y: -0.07588235}
---- !u!95 &6537159466926527774
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2843341384493151919}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 285b6210a3cbf8e4c92f84bd765cfc53, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0

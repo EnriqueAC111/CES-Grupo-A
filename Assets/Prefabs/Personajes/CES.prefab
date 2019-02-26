@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1984123713576007115}
   - component: {fileID: 4801005352532752079}
   - component: {fileID: 1033989833238727776}
+  - component: {fileID: 8105651180437202782}
   m_Layer: 0
   m_Name: CES
   m_TagString: CES
@@ -230,3 +231,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tuerca: {fileID: 4970270021410853805, guid: 6a309d3e72fdb4c4186a5d58c4be8fbd, type: 3}
+  cuerpo: {fileID: 0}
+  captaTuerca: {fileID: 0}
+--- !u!95 &8105651180437202782
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984123713576007113}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 72c7d180d57b33d4f8734e254bdd6043, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
