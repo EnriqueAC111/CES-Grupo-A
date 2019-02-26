@@ -21,9 +21,18 @@ public class Particulas : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(gameObject == null)
-        {
-            particules.Play();
-        }
+		
     }
+
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		if(other.gameObject.CompareTag("Tuerca"))
+		{
+			particulas.SetActive(true);
+		}
+		if(other.gameObject.CompareTag("CES"))
+		{
+			particulas.SetActive(true);
+		}
+	}
 }
