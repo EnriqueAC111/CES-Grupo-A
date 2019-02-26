@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Tuerca
+  - CES
+  - Kaze
   layers:
   - Default
   - TransparentFX

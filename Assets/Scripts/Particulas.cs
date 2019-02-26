@@ -34,5 +34,6 @@ public class Particulas : MonoBehaviour
 		{
 			particulas.SetActive(true);
 		}
+			
 	}
 }
