@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1647411520101509503}
   - component: {fileID: 1647411520101509500}
   - component: {fileID: 1647411520101509501}
-  - component: {fileID: 963575864090706201}
+  - component: {fileID: 1130855891611216043}
   m_Layer: 0
   m_Name: Ventilador
   m_TagString: Untagged
@@ -406,7 +406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84fb4d9b2f6425241ae9b417053cfcd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!95 &963575864090706201
+--- !u!95 &1130855891611216043
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -416,7 +416,7 @@ Animator:
   m_GameObject: {fileID: 1647411520101509497}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: be554978c459f1a4c8ee55058e5a7e14, type: 2}
+  m_Controller: {fileID: 9100000, guid: 44df02c2d80bcc847a0d77438e0052d5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
