@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class ExplotaGlobo : MonoBehaviour
 {
+
+    public ParticleSystem particulas;
+    public GameObject particles;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +21,8 @@ public class ExplotaGlobo : MonoBehaviour
 
     void OnMouseDown()
     {
-        Destroy(gameObject);
+        Instantiate(particles, transform.position, transform.rotation);
+        Destroy(gameObject);  
+        particulas.Play();
     } 
 }

@@ -29,10 +29,12 @@ public class Particulas : MonoBehaviour
 		if(other.gameObject.CompareTag("Tuerca"))
 		{
 			particulas.SetActive(true);
+            particules.Play();
 		}
 		if(other.gameObject.CompareTag("CES"))
 		{
 			particulas.SetActive(true);
+            particules.Play();
 		}
 			
 	}

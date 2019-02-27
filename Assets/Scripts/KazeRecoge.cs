@@ -33,6 +33,12 @@ public class KazeRecoge : MonoBehaviour
             hj.connectedBody = other.GetComponent<Rigidbody2D>();
             
         }
+        if (other.gameObject.CompareTag("CES"))
+        {
+            other.transform.position = Anclaje.transform.position;
+            hj.connectedBody = other.GetComponent<Rigidbody2D>();
+            
+        }
         
     }
     

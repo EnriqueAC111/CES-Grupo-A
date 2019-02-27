@@ -6,7 +6,7 @@ public class Ventilador : MonoBehaviour
 {
 
     PointEffector2D pe;
-    Time temporizador;
+    Animator anim;
     
 
     // Start is called before the first frame update
@@ -14,6 +14,7 @@ public class Ventilador : MonoBehaviour
     {
         pe = GetComponent<PointEffector2D>();
         pe.enabled = false;
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -25,6 +26,7 @@ public class Ventilador : MonoBehaviour
     void ventiladorActivado()
     {
         pe.enabled = true;
+       // anim.SetBool("", true);
     }
 
     private void OnMouseDown()

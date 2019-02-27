@@ -11,6 +11,7 @@ public class ComeTuerca : MonoBehaviour
     public Collider2D captaTuerca;
 
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,11 +22,6 @@ public class ComeTuerca : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Mathf.Round(tuerca.transform.position.y) == Mathf.Round(gameObject.transform.position.y))
-        {
-            Destroy(tuerca);
-        }
-
 
     }
 
@@ -35,7 +31,8 @@ public class ComeTuerca : MonoBehaviour
         {
             cuerpo.enabled = false;
             rb.bodyType = RigidbodyType2D.Static;
-            anim.SetBool("Comer", true);                  
+            anim.SetBool("Comer", true);
+            Destroy(other.gameObject);              
         }
 	}
 
@@ -44,6 +41,7 @@ public class ComeTuerca : MonoBehaviour
         if (collision.gameObject.CompareTag("Tuerca"))
         {
             tuerca.transform.position = Vector3.MoveTowards(tuerca.transform.position, gameObject.transform.position, Time.deltaTime);
+           
         }
     }
        

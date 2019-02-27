@@ -919,11 +919,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6796804563011746843, guid: abeaea7cfac37414188dbb21d837a14f,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 2899764825743385038, guid: abeaea7cfac37414188dbb21d837a14f,
         type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.size
@@ -1323,6 +1318,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[25].y
       value: 0.22800002
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796804563011746843, guid: abeaea7cfac37414188dbb21d837a14f,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abeaea7cfac37414188dbb21d837a14f, type: 3}
@@ -2018,6 +2018,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Globo (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2290842907028107131, guid: 0f1ea20ccfd2cb04d9ef16e9152368cc,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 2290842907028107133, guid: 0f1ea20ccfd2cb04d9ef16e9152368cc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2078,11 +2083,18 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2290842907028107131, guid: 0f1ea20ccfd2cb04d9ef16e9152368cc,
+    - target: {fileID: 2290842907028107134, guid: 0f1ea20ccfd2cb04d9ef16e9152368cc,
         type: 3}
-      propertyPath: m_GravityScale
-      value: -4
-      objectReference: {fileID: 0}
+      propertyPath: particulas
+      value: 
+      objectReference: {fileID: 791661038697389657, guid: ebfc84a4f608d6b43a0601e537274299,
+        type: 3}
+    - target: {fileID: 2290842907028107134, guid: 0f1ea20ccfd2cb04d9ef16e9152368cc,
+        type: 3}
+      propertyPath: particles
+      value: 
+      objectReference: {fileID: 791661038697389655, guid: ebfc84a4f608d6b43a0601e537274299,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f1ea20ccfd2cb04d9ef16e9152368cc, type: 3}
 --- !u!4 &943737507 stripped
@@ -2102,6 +2114,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Globo (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290842907028107131, guid: 0f1ea20ccfd2cb04d9ef16e9152368cc,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 2290842907028107133, guid: 0f1ea20ccfd2cb04d9ef16e9152368cc,
         type: 3}
@@ -2157,11 +2174,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 2290842907028107131, guid: 0f1ea20ccfd2cb04d9ef16e9152368cc,
-        type: 3}
-      propertyPath: m_GravityScale
-      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f1ea20ccfd2cb04d9ef16e9152368cc, type: 3}
@@ -2392,6 +2404,26 @@ MonoBehaviour:
   m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1279069902 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3818732327272702791, guid: bbfac36be2c4ffd41a58bb6b55ede3e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 777699934}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1279069907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279069902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5cd96822a4d61f42a83705f0b8356f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particulas: {fileID: 1577373156}
+  particules: {fileID: 1577373159}
 --- !u!1 &1527088855
 GameObject:
   m_ObjectHideFlags: 0
@@ -2474,6 +2506,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1577373156 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4375964170822828948, guid: bbfac36be2c4ffd41a58bb6b55ede3e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 777699934}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1577373159 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4375964170822828954, guid: bbfac36be2c4ffd41a58bb6b55ede3e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 777699934}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1588235849
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3698,6 +3742,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Globo
       objectReference: {fileID: 0}
+    - target: {fileID: 2290842907028107131, guid: 0f1ea20ccfd2cb04d9ef16e9152368cc,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 2290842907028107133, guid: 0f1ea20ccfd2cb04d9ef16e9152368cc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3757,11 +3806,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2290842907028107131, guid: 0f1ea20ccfd2cb04d9ef16e9152368cc,
-        type: 3}
-      propertyPath: m_GravityScale
-      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f1ea20ccfd2cb04d9ef16e9152368cc, type: 3}
@@ -3917,6 +3961,12 @@ PrefabInstance:
       propertyPath: pantallaFinalNivel
       value: 
       objectReference: {fileID: 224220879}
+    - target: {fileID: 7543182772973396190, guid: acbee4de62cb9b846a0c7ec7a8929616,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4a6d696d68e4f5b4db73b3a9779a7b17,
+        type: 3}
     - target: {fileID: 6168903805144428921, guid: acbee4de62cb9b846a0c7ec7a8929616,
         type: 3}
       propertyPath: m_RootOrder
@@ -3932,12 +3982,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fondo
       objectReference: {fileID: 0}
-    - target: {fileID: 7543182772973396190, guid: acbee4de62cb9b846a0c7ec7a8929616,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 4a6d696d68e4f5b4db73b3a9779a7b17,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acbee4de62cb9b846a0c7ec7a8929616, type: 3}
 --- !u!1 &2082391288

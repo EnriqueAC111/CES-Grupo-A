@@ -38,4 +38,15 @@ public class Cuerda : MonoBehaviour
             //conectado = false;
         }
     }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Destroy(hj2d);
+            Destroy(lr);
+            //conectado = false;
+        }
+        
+    }
 }
