@@ -8,6 +8,8 @@ public class BoominkController : MonoBehaviour
 
     public GameObject tuerca;
     Rigidbody2D rbTuerca;
+    Animator animator;
+    public GameObject vortice;
 
 
     public float velocidad = 100f;
@@ -17,6 +19,7 @@ public class BoominkController : MonoBehaviour
     void Start()
     {
         rbTuerca = tuerca.GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -27,8 +30,13 @@ public class BoominkController : MonoBehaviour
             transform.DetachChildren();
             rbTuerca.isKinematic = false;
             rbTuerca.AddForce(transform.up * velocidad);
+            animator.SetBool("Tocar", true);
             Debug.Log("RATONAZO");
             
+        }
+        if (Input.GetMouseButtonUp(0))
+        {
+            animator.SetBool("Tocar", false);
         }
     }
 
@@ -38,6 +46,7 @@ public class BoominkController : MonoBehaviour
         if (collision.gameObject.CompareTag("Tuerca"))
         {
             collision.transform.SetParent(gameObject.transform);
+            tuerca.transform.position = Vector3.MoveTowards(tuerca.transform.position, vortice.transform.position, Time.deltaTime);
             rbTuerca.isKinematic = true;
             
         }
