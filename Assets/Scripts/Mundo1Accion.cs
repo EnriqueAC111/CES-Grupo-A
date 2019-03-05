@@ -12,6 +12,7 @@ public class Mundo1Accion : MonoBehaviour
     public GameObject botonLvl2;
     public GameObject botonLvl3;
 
+    bool pulsado = false;
 
     // Start is called before the first frame update
     void Start()
@@ -20,21 +21,28 @@ public class Mundo1Accion : MonoBehaviour
         animacionFondo = fondo.GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void Mundo1Pulsado()
     {
-        anim.SetBool("Pulsado", true);
-        animacionFondo.SetBool("Pulsado", true);
-        botonLvl1.SetActive(true);
-        botonLvl2.SetActive(true);
-        botonLvl3.SetActive(true);
+        if (!pulsado)
+        {
+            anim.SetBool("Pulsado", true);
+            animacionFondo.SetBool("Pulsado", true);
+            botonLvl1.SetActive(true);
+            botonLvl2.SetActive(true);
+            botonLvl3.SetActive(true);
 
+            pulsado = true;
+        }
+        else
+        {
+            anim.SetBool("Pulsado", false);
+            animacionFondo.SetBool("Pulsado", false);
+            botonLvl1.SetActive(false);
+            botonLvl2.SetActive(false);
+            botonLvl3.SetActive(false);
+
+            pulsado = false;
+        }
     }
-
-
 }

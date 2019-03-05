@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -340,15 +340,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5230064, g: 0.6886792, b: 0.6886792, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: a431ea7b45d8f9f458d30b939c2f617b, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -481,7 +481,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -60, y: -84.59}
+  m_AnchoredPosition: {x: -58.3, y: -114.8}
   m_SizeDelta: {x: 33.02, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1394187127
@@ -581,6 +581,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6970771533175005647, guid: b93f0376ab086514992aa3e76229e936,
+        type: 3}
+      propertyPath: m_Name
+      value: CameControllerUI
+      objectReference: {fileID: 0}
     - target: {fileID: 5207821276722220202, guid: b93f0376ab086514992aa3e76229e936,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -636,11 +641,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6970771533175005647, guid: b93f0376ab086514992aa3e76229e936,
-        type: 3}
-      propertyPath: m_Name
-      value: CameControllerUI
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b93f0376ab086514992aa3e76229e936, type: 3}
 --- !u!114 &1478139261 stripped
@@ -690,7 +690,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 60, y: -84.59}
+  m_AnchoredPosition: {x: 61.7, y: -114.8}
   m_SizeDelta: {x: 33.02, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1484144868
@@ -1049,7 +1049,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -30.21001}
   m_SizeDelta: {x: 104.8, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1675531303

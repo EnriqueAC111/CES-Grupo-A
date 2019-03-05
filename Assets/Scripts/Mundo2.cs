@@ -4,28 +4,28 @@ using UnityEngine;
 
 public class Mundo2 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    bool desaparecido = false;
 
 
 
 
     public void Desaparece()
     {
-        gameObject.SetActive(false);
+        if (!desaparecido)
+        {
+            gameObject.SetActive(false);
+            desaparecido = true;
+        }
+        else
+        {
+            Invoke("Aparece", 0.3f);
+        }
+
     }
 
-
-
-
+    void Aparece()
+    {
+        gameObject.SetActive(true);
+        desaparecido = false;
+    }
 }
