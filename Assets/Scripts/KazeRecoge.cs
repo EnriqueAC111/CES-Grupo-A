@@ -7,6 +7,7 @@ public class KazeRecoge : MonoBehaviour
 
     Rigidbody2D rb;
     HingeJoint2D hj;
+    public Collider2D colCes;
 
     public GameObject Anclaje;
 
@@ -37,6 +38,7 @@ public class KazeRecoge : MonoBehaviour
         {
             other.transform.position = Anclaje.transform.position;
             hj.connectedBody = other.GetComponent<Rigidbody2D>();
+            colCes.enabled = false;
             
         }
         
@@ -57,5 +59,6 @@ public class KazeRecoge : MonoBehaviour
     private void OnMouseDown()
     {
         hj.connectedBody = null;
+    
     }
 }

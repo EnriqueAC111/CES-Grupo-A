@@ -26,7 +26,7 @@ public class Ventilador : MonoBehaviour
     void ventiladorActivado()
     {
         pe.enabled = true;
-       // anim.SetBool("", true);
+       anim.SetBool("Activado", true);
     }
 
     private void OnMouseDown()

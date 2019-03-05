@@ -5,7 +5,6 @@ using UnityEngine;
 public class Cuerda : MonoBehaviour
 {
     LineRenderer lr;
-    Rigidbody2D rb2d;
     HingeJoint2D hj2d;
 
     bool conectado = true;
@@ -13,7 +12,6 @@ public class Cuerda : MonoBehaviour
     void Start()
     {
         lr = GetComponent<LineRenderer>();
-        rb2d = GetComponent<Rigidbody2D>();
         hj2d = GetComponent<HingeJoint2D>();
         lr.positionCount = 2;
     }

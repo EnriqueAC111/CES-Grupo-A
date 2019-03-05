@@ -42,7 +42,6 @@ public class GameController : MonoBehaviour
         {
             pantallaFinalNivel.SetActive(true);
             hud.SetActive(false);
-            Time.timeScale = 0f;
         }
     }
 

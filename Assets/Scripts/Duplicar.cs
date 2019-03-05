@@ -6,7 +6,7 @@ public class Duplicar : MonoBehaviour
 {
 
     public Transform puntoDuplicacion;
-    public GameObject pepe;
+    
    
 
     // Start is called before the first frame update

@@ -7,14 +7,13 @@ using UnityEngine;
 public class CortaCuerda : MonoBehaviour
 {
 
-    Collider2D col;
+
 	private Vector2 mousePosition;
 	//Velocidad del cursor:
 	public float moveSpeed = 0.1f;
 	// Start is called before the first frame update
 	void Start()
 	{
-        col = GetComponent<Collider2D>();
         gameObject.SetActive(true);
     }
 
@@ -24,18 +23,14 @@ public class CortaCuerda : MonoBehaviour
         //Para activarlo con el click:
         if (Input.GetMouseButtonDown(0))
         {
-            col.enabled = true;
 
             //Para saber donde está la posición del ratón:
             mousePosition = Input.mousePosition;
             //Donde clickas tienes la posicion de la camara:
             mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+
         }
 
-        if (Input.GetMouseButtonUp(0))
-        {
-            col.enabled = false;
-        }
         if (Input.GetMouseButton(0)) {
 			//Consola:
 			Debug.Log("Mouse");
