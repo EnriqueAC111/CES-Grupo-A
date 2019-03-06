@@ -12,11 +12,14 @@ public class KazeRecoge : MonoBehaviour
     public GameObject Anclaje;
 
 
+    public EfectosSonido efs;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         hj = gameObject.GetComponent<HingeJoint2D>();
+        efs.SonidoKaze();
     }
 
     // Update is called once per frame

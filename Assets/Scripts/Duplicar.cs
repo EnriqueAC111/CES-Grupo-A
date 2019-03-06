@@ -6,8 +6,8 @@ public class Duplicar : MonoBehaviour
 {
 
     public Transform puntoDuplicacion;
-    
-   
+
+    public EfectosSonido efs;
 
     // Start is called before the first frame update
     void Start()
@@ -23,8 +23,10 @@ public class Duplicar : MonoBehaviour
 
     void OnMouseDown()
     {
+
         GameObject pepeNuevo;
         pepeNuevo = Instantiate(gameObject, puntoDuplicacion.transform.position, puntoDuplicacion.transform.rotation);
+        efs.SonidoPepe();
     }
 
 }

@@ -14,6 +14,8 @@ public class BoominkController : MonoBehaviour
 
     public float velocidad = 100f;
 
+    public EfectosSonido efs;
+
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +33,7 @@ public class BoominkController : MonoBehaviour
             rbTuerca.isKinematic = false;
             rbTuerca.AddForce(transform.up * velocidad);
             animator.SetBool("Tocar", true);
+            efs.SonidoBoomink();
             Debug.Log("RATONAZO");
             
         }

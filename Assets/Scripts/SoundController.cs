@@ -25,20 +25,25 @@ public class SoundController : MonoBehaviour
     public Sprite MusicaParada;
 
 
-
-    // Use this for initialization
-    void Start()
+    private static SoundController instance = null;
+    public static SoundController Instance
     {
-
+        get { return instance; }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-       
-    }
-   
 
+    void Awake()
+    {
+        if (instance != null && instance != this) {
+            Destroy(this.gameObject);
+            return;
+        } else {
+            instance = this;
+        }
+        DontDestroyOnLoad(this.gameObject);
+    }
+
+    
 
     public void Musica()
     {

@@ -10,7 +10,7 @@ public class ComeTuerca : MonoBehaviour
     public Collider2D cuerpo;
     public Collider2D captaTuerca;
 
-
+    public EfectosSonido efs;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +32,8 @@ public class ComeTuerca : MonoBehaviour
             cuerpo.enabled = false;
             rb.bodyType = RigidbodyType2D.Static;
             anim.SetBool("Comer", true);
-            Destroy(other.gameObject);              
+            Destroy(other.gameObject);
+            efs.SonidoCes();
         }
 	}
 

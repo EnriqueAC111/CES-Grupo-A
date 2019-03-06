@@ -11,6 +11,8 @@ public class Puntos : MonoBehaviour
 	public RawImage rayo1rell;
 	public RawImage rayo2rell;
 	public RawImage rayo3rell;
+    public EfectosSonido efs;
+
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +37,7 @@ public class Puntos : MonoBehaviour
 		{
 			rayo1cont.enabled = false;
 			rayo1rell.enabled = true;
+            efs.SonidoRayo();
 			Destroy(gameObject);
 		}else if((other.gameObject.CompareTag("Tuerca")||other.gameObject.CompareTag("CES")) && rayo1rell.enabled==true && 
 			rayo2cont.enabled==true)
