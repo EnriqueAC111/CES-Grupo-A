@@ -925,7 +925,7 @@ PrefabInstance:
     - target: {fileID: 1647411521570773047, guid: fce394b141323874785adad645f3969e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.77
+      value: 0.73
       objectReference: {fileID: 0}
     - target: {fileID: 1647411521570773047, guid: fce394b141323874785adad645f3969e,
         type: 3}
@@ -2032,17 +2032,22 @@ PrefabInstance:
     - target: {fileID: 2692915273389600396, guid: 42f2cf9aed8cab14986776d3b0f2cb5a,
         type: 3}
       propertyPath: m_LinearDrag
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2692915273389600396, guid: 42f2cf9aed8cab14986776d3b0f2cb5a,
         type: 3}
       propertyPath: m_AngularDrag
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2692915273389600396, guid: 42f2cf9aed8cab14986776d3b0f2cb5a,
         type: 3}
       propertyPath: m_Density
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2692915273389600396, guid: 42f2cf9aed8cab14986776d3b0f2cb5a,
+        type: 3}
+      propertyPath: m_SurfaceLevel
+      value: 2.27
       objectReference: {fileID: 0}
     - target: {fileID: 8151953960777426683, guid: 42f2cf9aed8cab14986776d3b0f2cb5a,
         type: 3}

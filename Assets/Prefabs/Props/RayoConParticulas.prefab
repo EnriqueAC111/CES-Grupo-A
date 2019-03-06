@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 982902302030846791}
   - component: {fileID: 2567726332056975713}
   - component: {fileID: 822341292680784305}
+  - component: {fileID: 2451744987931367263}
   m_Layer: 0
   m_Name: Rayo_pt
   m_TagString: Untagged
@@ -237,6 +238,20 @@ MonoBehaviour:
   rayo1rell: {fileID: 0}
   rayo2rell: {fileID: 0}
   rayo3rell: {fileID: 0}
+--- !u!114 &2451744987931367263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3818732327272702791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5cd96822a4d61f42a83705f0b8356f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particulas: {fileID: 4375964170822828948}
+  particules: {fileID: 4375964170822828954}
 --- !u!1 &4375964170822828948
 GameObject:
   m_ObjectHideFlags: 0

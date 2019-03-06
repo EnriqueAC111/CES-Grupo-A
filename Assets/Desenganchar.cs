@@ -5,7 +5,9 @@ using UnityEngine;
 public class Desenganchar : MonoBehaviour
 {
 
-	HingeJoint2D hj;
+	public HingeJoint2D hj;
+	public HingeJoint2D hj2;
+	public HingeJoint2D hj3;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,9 @@ public class Desenganchar : MonoBehaviour
 		if(other.gameObject.CompareTag("Kaze"))
 			{
 			hj.enabled = false;
+			hj2.enabled = false;
+			hj3.enabled = false;
+
 			}
 	}
 }

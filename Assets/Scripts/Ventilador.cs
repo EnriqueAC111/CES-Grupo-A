@@ -20,19 +20,19 @@ public class Ventilador : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-    }
-
-    void ventiladorActivado()
-    {
+        if(Input.GetMouseButtonDown(0))
+        {
+        Debug.Log("tocado");
         pe.enabled = true;
-       anim.SetBool("Activado", true);
+        anim.SetBool("Activado", true);
+        }
     }
 
     private void OnMouseDown()
     {
         Debug.Log("tocado");
-        ventiladorActivado();
+        pe.enabled = true;
+        anim.SetBool("Activado", true);
     }
 
 
