@@ -4308,11 +4308,6 @@ PrefabInstance:
       propertyPath: m_MatchWidthOrHeight
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2322851865767203447, guid: 533336b207e2c7243aeaa7f8678cbcf9,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 533336b207e2c7243aeaa7f8678cbcf9, type: 3}
 --- !u!4 &1724855523 stripped
