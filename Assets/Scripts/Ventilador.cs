@@ -8,7 +8,9 @@ public class Ventilador : MonoBehaviour
     PointEffector2D pe;
     Animator anim;
     private Vector2 mousePosition;
-    
+
+
+    public EfectosSonido efs;
 
     // Start is called before the first frame update
     void Start()
@@ -43,6 +45,7 @@ public class Ventilador : MonoBehaviour
         Debug.Log("tocado");
         pe.enabled = true;
         anim.SetBool("Activado", true);
+        efs.SonidoVentilador();
     }
 
 
