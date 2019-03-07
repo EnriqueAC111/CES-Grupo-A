@@ -18,7 +18,7 @@ public class Mundo1 : MonoBehaviour
         }
         else
         {
-            Invoke("Aparece", 0.3f);
+            Invoke("Aparece", 0.4f);
         }
 
     }

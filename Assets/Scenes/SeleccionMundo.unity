@@ -834,7 +834,7 @@ RectTransform:
   m_Children:
   - {fileID: 1305213245}
   m_Father: {fileID: 1478195946}
-  m_RootOrder: 2
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1517,8 +1517,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1242198993}
-        m_MethodName: Mundo1Pulsado
+      - m_Target: {fileID: 766320704}
+        m_MethodName: Desaparece
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1889,8 +1889,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1305213250}
-        m_MethodName: Mundo2Pulsado
+      - m_Target: {fileID: 1827310988}
+        m_MethodName: Desaparece
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2007,7 +2007,7 @@ RectTransform:
   m_Children:
   - {fileID: 1263713775}
   m_Father: {fileID: 1478195946}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2401,11 +2401,11 @@ RectTransform:
   m_Children:
   - {fileID: 1119049940}
   - {fileID: 1967181078}
-  - {fileID: 766320701}
   - {fileID: 1911952174}
   - {fileID: 1336841927}
   - {fileID: 1999584157}
   - {fileID: 2088834566}
+  - {fileID: 766320701}
   - {fileID: 1827310985}
   - {fileID: 262632182}
   m_Father: {fileID: 0}
@@ -3255,7 +3255,7 @@ RectTransform:
   m_Children:
   - {fileID: 2097412523}
   m_Father: {fileID: 1478195946}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3847,7 +3847,7 @@ RectTransform:
   m_Children:
   - {fileID: 663528939}
   m_Father: {fileID: 1478195946}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4004,7 +4004,7 @@ RectTransform:
   m_Children:
   - {fileID: 2091146499}
   m_Father: {fileID: 1478195946}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4346,8 +4346,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2097412528}
-        m_MethodName: Mundo3Pulsado
+      - m_Target: {fileID: 1827310988}
+        m_MethodName: Desaparece
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
