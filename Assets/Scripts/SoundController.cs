@@ -54,7 +54,7 @@ public class SoundController : MonoBehaviour
             musicaActiva = false;
         }else
         {
-            mixer.SetFloat("musica", 0);
+            mixer.SetFloat("musica", -15);
             botonMusica.sprite = MusicaNormal;
             musicaActiva = true;
         }
@@ -71,7 +71,7 @@ public class SoundController : MonoBehaviour
         }
         else
         {
-            mixer.SetFloat("efectos", 0);
+            mixer.SetFloat("efectos", -16);
             botonEfectos.sprite = EfectosNormal;
             sonidoActivo = true;
         }

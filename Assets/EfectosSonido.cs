@@ -13,8 +13,8 @@ public class EfectosSonido : MonoBehaviour
     public AudioClip sonidoBoton;
     public AudioClip sonidoBoomink;
     public AudioClip sonidoCasper;
-    public AudioClip sonidoComerTuerca;
-    public AudioClip sonidoKaze;
+
+
     public AudioClip sonidoPepe;
     public AudioClip sonidoVentilador;
     public AudioClip sonidoCes;
@@ -54,18 +54,7 @@ public class EfectosSonido : MonoBehaviour
         audioSource.Play();
     }
 
-    public void SonidoComerTuerca()
-    {
-        audioSource.clip = sonidoComerTuerca;
-        audioSource.Play();
-    }
-
-    public void SonidoKaze()
-    {
-        audioSource.clip = sonidoKaze;
-        audioSource.Play();
-        Invoke("SonidoKaze", 1f);
-    }
+   
 
     public void SonidoPepe()
     {

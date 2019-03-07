@@ -950,6 +950,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 533336b207e2c7243aeaa7f8678cbcf9, type: 3}
+--- !u!223 &556845777 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 5371640547128138077, guid: 533336b207e2c7243aeaa7f8678cbcf9,
+    type: 3}
+  m_PrefabInstance: {fileID: 556845776}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &652689865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1591,11 +1597,9 @@ MonoBehaviour:
   sonidoBoton: {fileID: 8300000, guid: b6f3a945bcb055a46b8f0ec1fdcd7350, type: 3}
   sonidoBoomink: {fileID: 8300000, guid: f6d62ce5093aaf643a3ea8dcabb0d40a, type: 3}
   sonidoCasper: {fileID: 8300000, guid: e99441ce7c3478d42879b01c1ed2aab7, type: 3}
-  sonidoComerTuerca: {fileID: 8300000, guid: 881d1a54413b97844bd6d148e27799b8, type: 3}
-  sonidoKaze: {fileID: 8300000, guid: c06ec8efba07aa44fb1d82aaf484fc1b, type: 3}
   sonidoPepe: {fileID: 8300000, guid: 7c577bdbea1ad7e4e95fc022696d3414, type: 3}
   sonidoVentilador: {fileID: 8300000, guid: e9339792fa7f7f54d830ad658c74eda1, type: 3}
-  sonidoCes: {fileID: 8300000, guid: 0f43b6f703ee3974d8d88128455f3eb5, type: 3}
+  sonidoCes: {fileID: 8300000, guid: 8be34ed9c5cb9bf4ea03a23b5712bdad, type: 3}
 --- !u!82 &849244153
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3600,6 +3604,16 @@ PrefabInstance:
       propertyPath: efs
       value: 
       objectReference: {fileID: 849244152}
+    - target: {fileID: 6801205088667794022, guid: 4d3ef697c33f3ca43b914d3786a636a5,
+        type: 3}
+      propertyPath: PantallaFinal
+      value: 
+      objectReference: {fileID: 556845777}
+    - target: {fileID: 6801205088667794022, guid: 4d3ef697c33f3ca43b914d3786a636a5,
+        type: 3}
+      propertyPath: sonidoKaze
+      value: 
+      objectReference: {fileID: 2036927668}
     - target: {fileID: 6801205088667794023, guid: 4d3ef697c33f3ca43b914d3786a636a5,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -3642,6 +3656,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d3ef697c33f3ca43b914d3786a636a5, type: 3}
+--- !u!82 &2036927668 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1130108046616354549, guid: 4d3ef697c33f3ca43b914d3786a636a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2036927667}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2043115913 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5703104546257103074, guid: e9bd72f2b67248c40ae44f5f36e8b8ba,
