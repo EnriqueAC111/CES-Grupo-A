@@ -11,25 +11,21 @@ public class CortaCuerda : MonoBehaviour
 	private Vector2 mousePosition;
 	//Velocidad del cursor:
 	public float moveSpeed = 0.1f;
+    Collider2D col;
+    public Collider2D colVentilador;
+    public PointEffector2D peVentilador;
 	// Start is called before the first frame update
 	void Start()
 	{
         gameObject.SetActive(true);
+        col = GetComponent<Collider2D>();
+        col.enabled = false;
     }
 
 	// Update is called once per frame
 	void Update()
 	{
-        //Para activarlo con el click:
-        if (Input.GetMouseButtonDown(0))
-        {
 
-            //Para saber donde está la posición del ratón:
-            mousePosition = Input.mousePosition;
-            //Donde clickas tienes la posicion de la camara:
-            mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
-
-        }
 
         if (Input.GetMouseButton(0)) {
 			//Consola:
@@ -40,8 +36,27 @@ public class CortaCuerda : MonoBehaviour
 			mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
 			//Para que se mueva:
 			transform.position = mousePosition;
+            col.enabled = true;
 		}
+        if (Input.GetMouseButtonUp(0))
+        {
+            col.enabled = false;
+        }
+            if (col.IsTouching(colVentilador))
+        {
+            col.enabled = false;
+        }
+ 
+
 
 	}
-		
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag ("Ventilador"))
+        {
+            peVentilador.enabled = true;
+        }
+    }
+
 }

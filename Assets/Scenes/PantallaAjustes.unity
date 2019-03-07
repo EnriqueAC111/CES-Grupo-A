@@ -952,11 +952,9 @@ MonoBehaviour:
   sonidoBoton: {fileID: 8300000, guid: b6f3a945bcb055a46b8f0ec1fdcd7350, type: 3}
   sonidoBoomink: {fileID: 8300000, guid: f6d62ce5093aaf643a3ea8dcabb0d40a, type: 3}
   sonidoCasper: {fileID: 8300000, guid: e99441ce7c3478d42879b01c1ed2aab7, type: 3}
-  sonidoComerTuerca: {fileID: 8300000, guid: 881d1a54413b97844bd6d148e27799b8, type: 3}
-  sonidoKaze: {fileID: 8300000, guid: c06ec8efba07aa44fb1d82aaf484fc1b, type: 3}
   sonidoPepe: {fileID: 8300000, guid: 7c577bdbea1ad7e4e95fc022696d3414, type: 3}
   sonidoVentilador: {fileID: 8300000, guid: e9339792fa7f7f54d830ad658c74eda1, type: 3}
-  sonidoCes: {fileID: 8300000, guid: 0f43b6f703ee3974d8d88128455f3eb5, type: 3}
+  sonidoCes: {fileID: 8300000, guid: 8be34ed9c5cb9bf4ea03a23b5712bdad, type: 3}
 --- !u!82 &1587297450
 AudioSource:
   m_ObjectHideFlags: 0

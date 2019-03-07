@@ -22,6 +22,7 @@ public class Ventilador : MonoBehaviour
 
     // Update is called once per frame
 
+
     private void OnMouseDown()
     {
         Debug.Log("tocado");

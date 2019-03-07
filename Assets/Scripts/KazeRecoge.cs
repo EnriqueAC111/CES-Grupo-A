@@ -5,30 +5,31 @@ using UnityEngine;
 public class KazeRecoge : MonoBehaviour
 {
 
-    Rigidbody2D rb;
     HingeJoint2D hj;
     public Collider2D colCes;
 
     public GameObject Anclaje;
 
 
-    public EfectosSonido efs;
+    public AudioSource sonidoKaze;
+    public Canvas PantallaFinal;
 
     // Start is called before the first frame update
     void Start()
     {
-        rb = gameObject.GetComponent<Rigidbody2D>();
         hj = gameObject.GetComponent<HingeJoint2D>();
-        efs.SonidoKaze();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
         
     }
 
-    
+    private void Update()
+    {
+        if(PantallaFinal.isActiveAndEnabled == true)
+        {
+            sonidoKaze.Stop();
+        }
+    }
+
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Tuerca"))
@@ -57,7 +58,7 @@ public class KazeRecoge : MonoBehaviour
         }
     }
     */
-
+    
 
     private void OnMouseDown()
     {

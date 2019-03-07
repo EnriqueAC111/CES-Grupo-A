@@ -40,8 +40,7 @@ public class GameController : MonoBehaviour
     {
         if (tuerca == null)
         {
-            pantallaFinalNivel.SetActive(true);
-            hud.SetActive(false);
+            Invoke("PantallaFinal", 3f);
         }
     }
 
@@ -117,4 +116,12 @@ public class GameController : MonoBehaviour
     }
 
  
+
+
+
+    void PantallaFinal()
+    {
+        pantallaFinalNivel.SetActive(true);
+        hud.SetActive(false);
+    }
 }

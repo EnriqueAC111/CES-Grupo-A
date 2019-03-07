@@ -67,8 +67,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1afad1cc8bff67a46b2d06dbde8adb1c, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: fdd3f18ae9a8ad34fb0fe0dbe7eeaf60, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -147,7 +147,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1afad1cc8bff67a46b2d06dbde8adb1c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fdd3f18ae9a8ad34fb0fe0dbe7eeaf60, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -225,8 +225,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1afad1cc8bff67a46b2d06dbde8adb1c, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: fdd3f18ae9a8ad34fb0fe0dbe7eeaf60, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -331,8 +331,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.14, y: 0.27}
+  m_Offset: {x: 0, y: -0.0029076934}
+  m_Size: {x: 0.14, y: 0.33978522}
   m_Direction: 0
 --- !u!120 &5703104545487783322
 LineRenderer:
@@ -533,8 +533,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.09}
-  m_Size: {x: 0.14, y: 0.27}
+  m_Offset: {x: 0, y: -0.0019128025}
+  m_Size: {x: 0.14, y: 0.3397271}
   m_Direction: 0
 --- !u!1 &5703104546257103085
 GameObject:
@@ -664,8 +664,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.14, y: 0.27}
+  m_Offset: {x: 0, y: -0.00011622906}
+  m_Size: {x: 0.14, y: 0.3458333}
   m_Direction: 0
 --- !u!120 &5703104546442291266
 LineRenderer:
@@ -874,8 +874,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.14, y: 0.27}
+  m_Offset: {x: 0, y: 0.0014538765}
+  m_Size: {x: 0.14, y: 0.3426926}
   m_Direction: 0
 --- !u!114 &5703104546479168970
 MonoBehaviour:
@@ -1059,8 +1059,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1afad1cc8bff67a46b2d06dbde8adb1c, type: 3}
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300000, guid: fdd3f18ae9a8ad34fb0fe0dbe7eeaf60, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
