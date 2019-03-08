@@ -113,7 +113,19 @@ Además, no hemos hecho las animaciones porque no estaban los sprites aunque Án
 * #26 Rediseño de plataformas
 * #86 Botones Selección de Nivel
 
-* Fondo para ich.io
+* Fondo para itch.io
 * Ayudar en pequeños detalles que necesitasen
 
+#### Mario
+* #82 Imagen Destacada 1024 x 500 (sin alfa)
+* #71 Imagotipo para Itch.io
+* #116 Fondo pantalla inicial
+* #118 Imagotipo (logo app)
+* #22 Eslabón definitivo
+* #123 Buscar/hacer música
+* #74 Animación al tocar Boomink
+* #76 Animación al tocar Casperger
+* #73 Animación estáica Boomink
+* #122 Buscar/hacer efectos de sonido
+* #75 Animación estática Casperger
 
