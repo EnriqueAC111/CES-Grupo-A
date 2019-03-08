@@ -96,6 +96,7 @@ public class GameController : MonoBehaviour
     {
 
         SceneManager.LoadScene("SeleccionMundo");
+        Time.timeScale = 1f;
     }
 
     public void Nivel1()
