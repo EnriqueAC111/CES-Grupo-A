@@ -437,12 +437,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acbee4de62cb9b846a0c7ec7a8929616, type: 3}
---- !u!60 &55833962 stripped
-PolygonCollider2D:
-  m_CorrespondingSourceObject: {fileID: 4801005352532752079, guid: 8c27503253dc6af4e93ce1bd4ff0b384,
-    type: 3}
-  m_PrefabInstance: {fileID: 1607617313}
-  m_PrefabAsset: {fileID: 0}
 --- !u!58 &55833964 stripped
 CircleCollider2D:
   m_CorrespondingSourceObject: {fileID: 6823392149576847637, guid: 8c27503253dc6af4e93ce1bd4ff0b384,
@@ -2172,6 +2166,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4970270021410853806, guid: 6a309d3e72fdb4c4186a5d58c4be8fbd,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a309d3e72fdb4c4186a5d58c4be8fbd, type: 3}
 --- !u!1001 &803809026
@@ -2580,7 +2579,7 @@ PrefabInstance:
     - target: {fileID: 2290842907028107132, guid: 0f1ea20ccfd2cb04d9ef16e9152368cc,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2290842907028107134, guid: 0f1ea20ccfd2cb04d9ef16e9152368cc,
         type: 3}
@@ -2838,6 +2837,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35fa72367c9d46440aa3ae484575cd8c, type: 3}
+--- !u!60 &1157737457 stripped
+PolygonCollider2D:
+  m_CorrespondingSourceObject: {fileID: 3277109874649039772, guid: 8c27503253dc6af4e93ce1bd4ff0b384,
+    type: 3}
+  m_PrefabInstance: {fileID: 1607617313}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1228899120
 GameObject:
   m_ObjectHideFlags: 0
@@ -3087,7 +3092,7 @@ PrefabInstance:
         type: 3}
       propertyPath: cuerpo
       value: 
-      objectReference: {fileID: 55833962}
+      objectReference: {fileID: 1157737457}
     - target: {fileID: 1033989833238727776, guid: 8c27503253dc6af4e93ce1bd4ff0b384,
         type: 3}
       propertyPath: captaTuerca

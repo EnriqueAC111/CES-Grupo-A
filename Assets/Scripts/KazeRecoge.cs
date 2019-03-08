@@ -5,7 +5,6 @@ using UnityEngine;
 public class KazeRecoge : MonoBehaviour
 {
 
-    Rigidbody2D rb;
     HingeJoint2D hj;
     public Collider2D colCes;
 
@@ -18,7 +17,6 @@ public class KazeRecoge : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb = gameObject.GetComponent<Rigidbody2D>();
         hj = gameObject.GetComponent<HingeJoint2D>();
         
     }

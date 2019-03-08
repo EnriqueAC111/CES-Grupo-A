@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Duplicar : MonoBehaviour
 {
-
+    GameObject pepeNuevo;
     public Transform puntoDuplicacion;
 
     public EfectosSonido efs;
@@ -23,8 +23,7 @@ public class Duplicar : MonoBehaviour
 
     void OnMouseDown()
     {
-
-        GameObject pepeNuevo;
+        
         pepeNuevo = Instantiate(gameObject, puntoDuplicacion.transform.position, puntoDuplicacion.transform.rotation);
         efs.SonidoPepe();
     }
