@@ -63,12 +63,12 @@
 * He retocado algunas vectorizaciones de fondos (in progress)
 
 #### Ángela
-* #Aplicar estilos a los personajes
-* #Vectorizar Fondo 2
-* #Aplicar estilos botones
-* #Aplicar estilos props
-* #Estilo de fondos
-* #Vectorizar Imán
+* #95 Aplicar estilos a los personajes
+* #19 Vectorizar Fondo 2
+* #98 Aplicar estilos botones
+* #96 Aplicar estilos props
+* #94 Estilo de fondos
+* #39 Vectorizar Imán
 
 ### Retrospectiva del sprint
 
