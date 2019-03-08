@@ -129,3 +129,10 @@ Además, no hemos hecho las animaciones porque no estaban los sprites aunque Án
 * #122 Buscar/hacer efectos de sonido
 * #75 Animación estática Casperger
 
+#### Pablo
+* #6 Recogida de elemento al tocarlo
+* #121 Sustituir y adaptar sprites
+* #67 IU
+* #119 Pulir mecánicas y físicas
+* #90 Animación al tocar ventilador
+* #91 Animación estática agua
