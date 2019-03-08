@@ -55,12 +55,20 @@
 * Vectorizar Pantalla de Selección de Mundos
 * Retocar Todos los Botones
 
-#### Sara V. Martín García
+#### Sara
 * #94 Estilo de fondos
 * #17 Vectorizar fondo 1
 * #95 Aplicar estilos a los personajes
 
 * He retocado algunas vectorizaciones de fondos (in progress)
+
+#### Ángela
+* #Aplicar estilos a los personajes
+* #Vectorizar Fondo 2
+* #Aplicar estilos botones
+* #Aplicar estilos props
+* #Estilo de fondos
+* #Vectorizar Imán
 
 ### Retrospectiva del sprint
 
@@ -78,3 +86,34 @@ Plantear con más antelación todo lo que va a ser necesario.
 #### ¿Se han compeltado todas las tareas? Si o no, ¿por qué?
 No, hemos tenido problemas por culpa de estar malos, por lo que varios días no han sido días habiles.
 Además, no hemos hecho las animaciones porque no estaban los sprites aunque Ángela decía que se puede animar y luego se le añade el sprite. Por la parte de arte que se tenía planteado en el sprint, sí. 
+
+
+﻿# CES
+## Sprint 2 (16/02/19 - 08/03/19)
+### Resumen
+
+#### Sara
+
+* #77 Animacion candados
+* #116 Fondo pantalla inicial
+* #130 Rehacer botones
+* #115 Retocar fondos
+* #68 Estudio de pigmentos
+
+* Animación botones pantalla seleccion de mundos
+* Retoque general de algunos acabados dentro del juego
+
+#### Ángela
+
+* #114 Logo
+* #97 Aplicar estilo fondos
+* #99 Plataformas de colores
+* #120 Fondo selección de niveles/mundos
+* #68 Estudio de pigmentos/tinte
+* #26 Rediseño de plataformas
+* #86 Botones Selección de Nivel
+
+* Fondo para ich.io
+* Ayudar en pequeños detalles que necesitasen
+
+
