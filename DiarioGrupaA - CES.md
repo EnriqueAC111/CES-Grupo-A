@@ -136,3 +136,18 @@ Además, no hemos hecho las animaciones porque no estaban los sprites aunque Án
 * #119 Pulir mecánicas y físicas
 * #90 Animación al tocar ventilador
 * #91 Animación estática agua
+
+#### Enrique
+* #72 Script repeler Casperger
+* #87 Animación globo explosión
+* #10 Programar animaciones
+* #121 Sustituir y adaptar sprites
+* #113 Pantalla final nivel
+* #67 IU
+* #89 Animación estática CES
+* #92 Animación rayos pantalla final
+* #119 Pulir físicas y mecánicas
+* #111 Montar niveles en Unity
+* #79 Animación estática Pepe
+* #129 Animación comer CES
+* #84 Animación recogida de rayos
