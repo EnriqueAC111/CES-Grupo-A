@@ -151,3 +151,24 @@ Además, no hemos hecho las animaciones porque no estaban los sprites aunque Án
 * #79 Animación estática Pepe
 * #129 Animación comer CES
 * #84 Animación recogida de rayos
+
+
+### Retrospectiva del sprint
+
+
+#### Problemas que han surgido
+Suficientes bugs como para no avanzar lo suficiente.
+Algunos fallos de comunicación por lo que algunas tareas se han repetido varias veces o se han hecho mal por lo que ha habido que repetirlas.
+Faltaban alguns tareas.
+La UI nos dio más pelea de la que pensabamos.
+El arte se alargó más de lo que pensabamos.
+
+#### Posibles soluciones
+Pedir ayuda a Pedro y Javi con los bugs.
+Que las personas que han repetido cosas preguntasen antes de hacer algo que ya estaba siendo hecho.
+Cambiar algunas tareas que no se iban a realizar al final por el nombre de las que faltaban(por ejemplo: animación barril rodando por programación sonidos).
+Echarle más tiempo a la UI.
+
+
+#### ¿Se han compeltado todas las tareas? Si o no, ¿por qué?
+Han faltado algunas que han dado problemas. Sin embargo el juego es funcional y está exportado a movil, solo que hay algunas cosas que hacen falta pulir.
