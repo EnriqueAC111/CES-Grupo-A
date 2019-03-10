@@ -162,6 +162,7 @@ Algunos fallos de comunicación por lo que algunas tareas se han repetido varias
 Faltaban alguns tareas.
 La UI nos dio más pelea de la que pensabamos.
 El arte se alargó más de lo que pensabamos.
+El día de la demostración a Pedro el juego se rompió por algún motivo y hubo que volver atrás varias versiones.
 
 #### Posibles soluciones
 Pedir ayuda a Pedro y Javi con los bugs.
