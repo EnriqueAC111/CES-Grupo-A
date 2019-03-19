@@ -152,6 +152,25 @@ Además, no hemos hecho las animaciones porque no estaban los sprites aunque Án
 * #129 Animación comer CES
 * #84 Animación recogida de rayos
 
+#### Simón
+* #109 Dar de Alta en Itch.io
+* #130 Rehacer Botones
+* #36 Cambiar Color Tuerca
+* #120 Fondo Selección de Niveles/Mundo
+* #26 Rediseño de Plataformas
+* #126 Vectorizar Cadena
+* #74 Animacion al tocar Boomink
+* #76 Animación al tocar Casperger
+* #73 Animación estática Boomink
+* #75 Animación estática Casperger
+* #80 Animación estática Kaze
+* #112 Pantalla Final Nivel
+* #128 Rehacer Sprites Kaze
+* #117 Fondo Interfaz
+
+
+
+
 
 ### Retrospectiva del sprint
 

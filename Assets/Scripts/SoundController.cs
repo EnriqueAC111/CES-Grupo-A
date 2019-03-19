@@ -31,12 +31,13 @@ public class SoundController : MonoBehaviour
         get { return instance; }
     }
 
-
+        // Esta función se ejecuta cuando se carga la escena.
     void Awake()
     {
-        if (instance != null && instance != this) {
-            Destroy(this.gameObject);
-            return;
+            // Esta función verifica si existe un objeto con el mismo código en la escena. Si es así, destruye el elemento que acaba de crear, mientras que si no existe ningún elemento con el código, lo crea.
+        if (instance != null && instance != this) { 
+            Destroy(this.gameObject);   
+            return;     
         } else {
             instance = this;
         }
@@ -44,18 +45,18 @@ public class SoundController : MonoBehaviour
     }
 
     
-
+        // Este script será el que controle el sonido y la música. Se podrá mutear o desmutear cada uno en el menú de ajustes.
     public void Musica()
     {
         if (musicaActiva)
         {
-            mixer.SetFloat("musica", -80f);
-            botonMusica.sprite = MusicaParada;
-            musicaActiva = false;
+            mixer.SetFloat("musica", -80f);     // Se pone la música suficientemente baja como para que no se oiga.
+            botonMusica.sprite = MusicaParada;  // Se cambia el sprite del botón para que aparezca que no hay música.
+            musicaActiva = false;               
         }else
         {
-            mixer.SetFloat("musica", -15);
-            botonMusica.sprite = MusicaNormal;
+            mixer.SetFloat("musica", -15);      // Se ajustan los decibelios para que vuelva a sonar la música.
+            botonMusica.sprite = MusicaNormal;  // Se devuelve el sprite del botón al de música activa.
             musicaActiva = true;
         }
     }
@@ -65,14 +66,14 @@ public class SoundController : MonoBehaviour
     {
         if (sonidoActivo)
         {
-            mixer.SetFloat("efectos", -80f);
-            botonEfectos.sprite = EfectosParada;
+            mixer.SetFloat("efectos", -80f);        // Se ponen los sonidos suficientemente baja como para que no se oiga.
+            botonEfectos.sprite = EfectosParada;    // Se cambia el sprite del botón para que aparezca que no hay efectos de sonido.
             sonidoActivo = false;
         }
         else
         {
-            mixer.SetFloat("efectos", -16);
-            botonEfectos.sprite = EfectosNormal;
+            mixer.SetFloat("efectos", -16);         // Se ajustan los decibelios para que vuelvan a sonar los efectos.
+            botonEfectos.sprite = EfectosNormal;    // Se cambia el sprite del botón para que aparezca que hay efectos de sonido.
             sonidoActivo = true;
         }
     }
