@@ -30,22 +30,26 @@ public class SoundController : MonoBehaviour
     {
         get { return instance; }
     }
-
-        // Esta función se ejecuta cuando se carga la escena.
-    void Awake()
-    {
-            // Esta función verifica si existe un objeto con el mismo código en la escena. Si es así, destruye el elemento que acaba de crear, mientras que si no existe ningún elemento con el código, lo crea.
-        if (instance != null && instance != this) { 
-            Destroy(this.gameObject);   
-            return;     
-        } else {
-            instance = this;
+    /*
+            // Esta función se ejecuta cuando se carga la escena.
+        void Awake()
+        {
+                // Esta función verifica si existe un objeto con el mismo código en la escena. Si es así, destruye el elemento que acaba de crear, mientras que si no existe ningún elemento con el código, lo crea.
+            if (instance != null && instance != this) { 
+                Destroy(this.gameObject);   
+                return;     
+            } else {
+                instance = this;
+            }
+            DontDestroyOnLoad(this.gameObject);
         }
-        DontDestroyOnLoad(this.gameObject);
-    }
+        */
 
-    
-        // Este script será el que controle el sonido y la música. Se podrá mutear o desmutear cada uno en el menú de ajustes.
+
+
+
+
+    // Este script será el que controle el sonido y la música. Se podrá mutear o desmutear cada uno en el menú de ajustes.
     public void Musica()
     {
         if (musicaActiva)

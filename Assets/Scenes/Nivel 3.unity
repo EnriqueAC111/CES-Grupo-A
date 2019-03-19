@@ -1164,7 +1164,7 @@ PrefabInstance:
     - target: {fileID: 446519757705594093, guid: acbee4de62cb9b846a0c7ec7a8929616,
         type: 3}
       propertyPath: m_Text
-      value: 'Level 3
+      value: 'LEVEL       3
 
 '
       objectReference: {fileID: 0}
@@ -1706,6 +1706,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SiguienteLvl
+      objectReference: {fileID: 0}
+    - target: {fileID: 5371640547373608099, guid: 533336b207e2c7243aeaa7f8678cbcf9,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 0.1509434
+      objectReference: {fileID: 0}
+    - target: {fileID: 5371640547373608099, guid: 533336b207e2c7243aeaa7f8678cbcf9,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.1509434
+      objectReference: {fileID: 0}
+    - target: {fileID: 5371640547373608099, guid: 533336b207e2c7243aeaa7f8678cbcf9,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0.1509434
       objectReference: {fileID: 0}
     - target: {fileID: 5371640547416724824, guid: 533336b207e2c7243aeaa7f8678cbcf9,
         type: 3}
@@ -2328,16 +2343,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5703104546479169015, guid: e9bd72f2b67248c40ae44f5f36e8b8ba,
-        type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: 0.26449966
-      objectReference: {fileID: 0}
-    - target: {fileID: 5703104546442291279, guid: e9bd72f2b67248c40ae44f5f36e8b8ba,
-        type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: 0.2637
-      objectReference: {fileID: 0}
     - target: {fileID: 5703104546442291276, guid: e9bd72f2b67248c40ae44f5f36e8b8ba,
         type: 3}
       propertyPath: m_Mass
@@ -2363,15 +2368,25 @@ PrefabInstance:
       propertyPath: m_Mass
       value: 0.01
       objectReference: {fileID: 0}
-    - target: {fileID: 5703104545487783303, guid: e9bd72f2b67248c40ae44f5f36e8b8ba,
-        type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: 0.2647004
-      objectReference: {fileID: 0}
     - target: {fileID: 5703104545487783300, guid: e9bd72f2b67248c40ae44f5f36e8b8ba,
         type: 3}
       propertyPath: m_Mass
       value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5703104546479169015, guid: e9bd72f2b67248c40ae44f5f36e8b8ba,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.26449966
+      objectReference: {fileID: 0}
+    - target: {fileID: 5703104546442291279, guid: e9bd72f2b67248c40ae44f5f36e8b8ba,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.2637
+      objectReference: {fileID: 0}
+    - target: {fileID: 5703104545487783303, guid: e9bd72f2b67248c40ae44f5f36e8b8ba,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.2647004
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9bd72f2b67248c40ae44f5f36e8b8ba, type: 3}
